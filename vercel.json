@@ -19,7 +19,7 @@
         ]
       },
       {
-        "source": "/vercel_app_domain_name/(.*)",
+        "source": "/https://skinewt.vercel.app/(.*)",
         "headers": [
           { "key": "Access-Control-Allow-Origin", "value": "*" }
         ]
