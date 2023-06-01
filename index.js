@@ -23,7 +23,7 @@ const createConnection = async () => {
 };
 const client = await createConnection();
 
-app.get("/Equipment", (req, res) => {
+app.get("/", (req, res) => {
   
   res.json({ message: "welcome" });
 });
